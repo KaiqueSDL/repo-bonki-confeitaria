@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "revision": 4,
+  "products": [
+    {
+      "id": "choco-chip",
+      "name": "Choco Chip - Clássico",
+      "flavor": "Chocolate ao leite e meio amargo",
+      "size": "100g",
+      "price": 13,
+      "available": true,
+      "featured": true,
+      "description": "Massa branca com gotas de chocolate ao leite e meio amargo. Crocante por fora e macio por dentro, no clássico sabor de chocolate.",
+      "currency": "BRL",
+      "active": true,
+      "order": 1,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-1",
+      "imageId": "original-media-3"
+    },
+    {
+      "id": "black-triplo",
+      "name": "Black Triplo Chocolate",
+      "flavor": "Cacau 100% + 3 chocolates",
+      "size": "100g",
+      "price": 13,
+      "available": true,
+      "featured": true,
+      "description": "Massa black com cacau 100% e uma combinação irresistível de gotas de chocolate ao leite, branco e meio amargo. Intensidade em cada mordida.",
+      "currency": "BRL",
+      "active": true,
+      "order": 2,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-1",
+      "imageId": "original-media-1"
+    },
+    {
+      "id": "caramelo-salgado",
+      "name": "Caramelo Salgado",
+      "flavor": "Caramelo artesanal",
+      "size": "100g",
+      "price": 14,
+      "available": true,
+      "featured": true,
+      "description": "Recheio cremoso de caramelo artesanal com gotas de chocolate meio amargo na massa clássica. Um equilíbrio delicioso entre o doce e o salgado.",
+      "currency": "BRL",
+      "active": true,
+      "order": 3,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "original-media-2"
+    },
+    {
+      "id": "coco-dulce",
+      "name": "Coco Dulce",
+      "flavor": "Doce de leite e coco",
+      "size": "100g",
+      "price": 13,
+      "available": true,
+      "description": "Massa clássica com coco ralado úmido, recheio de doce de leite e gotas de chocolate branco. Um sabor suave e irresistível.",
+      "currency": "BRL",
+      "featured": false,
+      "active": true,
+      "order": 4,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "original-media-4"
+    },
+    {
+      "id": "limao-siciliano",
+      "name": "Limão Siciliano",
+      "flavor": "Brigadeiro de limão siciliano",
+      "size": "100g",
+      "price": 12,
+      "available": true,
+      "description": "Cookie macio com recheio de brigadeiro de limão siciliano e gotas de chocolate branco na massa clássica. Refrescante e delicioso.",
+      "currency": "BRL",
+      "featured": false,
+      "active": true,
+      "order": 5,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "original-media-5"
+    },
+    {
+      "id": "ninho",
+      "name": "Ninho",
+      "flavor": "Leite em pó",
+      "size": "100g",
+      "price": 13,
+      "available": true,
+      "description": "Feito com recheio cremoso de leite em pó com gotas de chocolate branco. Delicado e irresistível.",
+      "currency": "BRL",
+      "featured": false,
+      "active": true,
+      "order": 6,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "original-media-6"
+    },
+    {
+      "id": "ninhotella",
+      "name": "Ninhotella",
+      "flavor": "Ninho com Nutella",
+      "size": "100g",
+      "price": 14,
+      "available": true,
+      "featured": true,
+      "description": "Combinação perfeita de recheio cremoso de Ninho com Nutella, finalizado com gotas de chocolate branco e ao leite. Uma explosão de sabor.",
+      "currency": "BRL",
+      "active": true,
+      "order": 7,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "original-media-6"
+    },
+    {
+      "id": "nutella",
+      "name": "Nutella",
+      "flavor": "Nutella",
+      "size": "100g",
+      "price": 15,
+      "available": true,
+      "description": "Cookie recheado com Nutella e finalizado com gotas de chocolate branco e ao leite que derretem na boca. Cremoso e apaixonante.",
+      "currency": "BRL",
+      "featured": false,
+      "active": true,
+      "order": 8,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "original-media-7"
+    },
+    {
+      "id": "red-velvet",
+      "name": "Red Velvet",
+      "flavor": "Ganache de cream cheese",
+      "size": "100g",
+      "price": 15,
+      "available": true,
+      "featured": true,
+      "description": "Massa de cacau com a clássica cor vermelha e recheio cremoso de ganache de cream cheese. Elegante e delicioso.",
+      "currency": "BRL",
+      "active": true,
+      "order": 9,
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "original-media-10"
+    },
+    {
+      "id": "pote-sicilia",
+      "name": "Pote Sicília",
+      "flavor": "Limão siciliano e caramelo",
+      "size": "aprox. 220g",
+      "price": 18,
+      "available": true,
+      "featured": true,
+      "description": "Combinação perfeita de recheio cremoso de limão siciliano e creme de caramelo, intercalados com cookie de limão siciliano e gotas de chocolate branco.",
+      "currency": "BRL",
+      "active": true,
+      "order": 10,
+      "categoryId": "category-2",
+      "subcategoryId": "category-2-sub-1",
+      "imageId": "original-media-9"
+    },
+    {
+      "id": "pote-latte",
+      "name": "Pote Latte",
+      "flavor": "Ninho e morango",
+      "size": "aprox. 220g",
+      "price": 18,
+      "available": true,
+      "featured": true,
+      "description": "O clássico recheio de ninho e morango, intercalado com uma massa perfeita de cookie Red Velvet (massa vermelha com cacau 100%) e gotas de chocolate branco.",
+      "currency": "BRL",
+      "active": true,
+      "order": 11,
+      "categoryId": "category-2",
+      "subcategoryId": "category-2-sub-1",
+      "imageId": "original-media-8"
+    },
+    {
+      "name": "Cookie Azul",
+      "description": "Cookie azul sendo realizado teste de implementação",
+      "flavor": "Blue velt",
+      "size": "132g",
+      "categoryId": "category-1",
+      "subcategoryId": "category-1-sub-2",
+      "imageId": "44408597-5bd7-4a17-987a-44b9b0a7683e",
+      "price": 16,
+      "currency": "BRL",
+      "active": true,
+      "available": true,
+      "featured": true,
+      "order": 13,
+      "id": "b9974bea-81e7-456b-a86a-703091d98511"
+    }
+  ],
+  "categories": [
+    {
+      "id": "category-1",
+      "name": "Cookies",
+      "active": true,
+      "order": 1,
+      "subcategories": [
+        {
+          "id": "category-1-sub-1",
+          "name": "Sem recheio",
+          "active": true,
+          "order": 1
+        },
+        {
+          "id": "category-1-sub-2",
+          "name": "Recheados",
+          "active": true,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "category-2",
+      "name": "Cookies no Pote",
+      "active": true,
+      "order": 2,
+      "subcategories": [
+        {
+          "id": "category-2-sub-1",
+          "name": "Potes",
+          "active": true,
+          "order": 1
+        }
+      ]
+    }
+  ],
+  "carousel": {
+    "slides": [
+      {
+        "id": "slide-original-1",
+        "title": "Pronto para adoçar a vida?",
+        "description": "Cookies recheados artesanais. Confira nossos sabores e preços.",
+        "layout": "stack",
+        "imageIds": [
+          "original-media-11",
+          "original-media-12",
+          "original-media-13"
+        ],
+        "button": {
+          "text": "Conheça nossos produtos",
+          "url": "#/cardapio"
+        },
+        "active": true,
+        "order": 1
+      },
+      {
+        "id": "slide-original-2",
+        "title": "100g de puro sabor",
+        "description": "Massa + recheio generoso em cada mordida. Crocante por fora, macio por dentro.",
+        "layout": "single",
+        "imageIds": [
+          "original-media-1"
+        ],
+        "button": {
+          "text": "Conheça nossos produtos",
+          "url": "#/cardapio"
+        },
+        "active": true,
+        "order": 2
+      },
+      {
+        "id": "slide-original-3",
+        "title": "Novo: cookies no pote",
+        "description": "Camadas de recheio cremoso e cookie. Pote Sicília e Pote Latte.",
+        "layout": "single",
+        "imageIds": [
+          "original-media-8"
+        ],
+        "button": {
+          "text": "Conheça nossos produtos",
+          "url": "#/cardapio"
+        },
+        "active": true,
+        "order": 3
+      }
+    ],
+    "settings": {
+      "autoplay": true,
+      "interval": 6000,
+      "transition": 800,
+      "showIndicators": true,
+      "showArrows": true
+    }
+  },
+  "history": {
+    "title": "Nossa História",
+    "subtitle": "Uma confeitaria feita à mão",
+    "eyebrow": "De onde tudo começou",
+    "foundersImageId": null,
+    "paragraphs": [
+      "Conte aqui como a Bonki nasceu: a ideia, as fundadoras e o carinho por trás de cada cookie.",
+      "Cada receita é pensada para entregar muito sabor em cada mordida. Substitua este texto pela história real da marca."
+    ],
+    "timeline": [
+      {
+        "id": "timeline-original-1",
+        "year": "2020",
+        "title": "O início",
+        "description": "Edite: onde tudo começou.",
+        "order": 1
+      },
+      {
+        "id": "timeline-original-2",
+        "year": "2021",
+        "title": "Primeiros cookies",
+        "description": "Edite: o primeiro sabor e os primeiros clientes.",
+        "order": 2
+      },
+      {
+        "id": "timeline-original-3",
+        "year": "2023",
+        "title": "Crescimento",
+        "description": "Edite: novos sabores e mais gente adoçando a vida.",
+        "order": 3
+      },
+      {
+        "id": "timeline-original-4",
+        "year": "2026",
+        "title": "Nova fase",
+        "description": "Edite: cookies no pote e muito mais por vir.",
+        "order": 4
+      }
+    ],
+    "ctaTitle": "Agora que você conhece nossa história, conheça nossos produtos.",
+    "ctaText": "Sabores para todos os gostos.",
+    "ctaButton": "Ver Cardápio"
+  },
+  "settings": {
+    "brand": {
+      "name": "Bonki Confeitaria",
+      "logoText": "BoNKI",
+      "logoSubtitle": "CONFEITARIA",
+      "slogan": "Pronto para adoçar a vida?",
+      "sidebarText": "Feito com carinho,\npara você aproveitar cada pedaço."
+    },
+    "contact": {
+      "whatsapp": "5511947511238",
+      "instagram": "bonkiconfeitaria",
+      "email": ""
+    },
+    "notices": [
+      "Pagamento somente via PIX.",
+      "Valores para compra direta com a Bonki (apps de delivery podem ter preços diferentes).",
+      "Entrega fora dos apps tem taxa: consulte o valor para sua região.",
+      "Pronta entrega para pequenas quantidades. Acima de 6 unidades, avise com antecedência."
+    ],
+    "home": {
+      "featuredEyebrow": "Nossos queridinhos",
+      "featuredTitle": "Conheça nossos produtos",
+      "featuredDescription": "Escolha, adicione ao carrinho e finalize pelo WhatsApp.",
+      "featuredButton": "Ver cardápio completo",
+      "aboutEyebrow": "Sobre a Bonki",
+      "aboutTitle": "Feito com carinho, pensado para você",
+      "aboutText": "Na Bonki Confeitaria cada cookie é feito com 100g de massa e recheio, para você aproveitar cada pedaço. Ingredientes selecionados, receitas autorais e muito afeto em cada fornada.",
+      "aboutImageId": "original-media-10",
+      "aboutButton": "Conheça nossa história",
+      "ctaTitle": "Bateu a vontade de doce?",
+      "ctaText": "Chame a gente no WhatsApp e monte seu pedido.",
+      "ctaButton": "Falar pelo WhatsApp"
+    },
+    "footer": {
+      "text": "Todos os direitos reservados.",
+      "year": "2026"
+    },
+    "messages": {
+      "general": "Olá! Gostaria de mais informações.",
+      "greeting": "Olá!",
+      "order": "Olá! Gostaria de fazer um pedido.",
+      "heroButton": "Fale pelo WhatsApp",
+      "product": "Olá! Gostaria de solicitar:\n\nProduto: {produto}\nQuantidade: {quantidade}\n\nAguardo informações sobre disponibilidade e valores.",
+      "cart": "Olá! Gostaria de fazer o seguinte pedido:\n\n🛍️ PEDIDO\n\n{itens}\n\nTotal de itens: {quantidade}\nTotal: {total}\n\nGostaria de confirmar disponibilidade, entrega e finalizar o pedido (pagamento via PIX).\n\nObrigado!"
+    },
+    "seo": {
+      "title": "Bonki Confeitaria | Cookies Artesanais",
+      "description": "Conheça os cookies recheados da Bonki Confeitaria. Escolha seus sabores e faça seu pedido direto pelo WhatsApp."
+    }
+  },
+  "media": [
+    {
+      "id": "original-media-1",
+      "filename": "black-triplo-02.webp",
+      "originalName": "black-triplo-02.webp",
+      "path": "/uploads/products/black-triplo-02.webp",
+      "alt": "Black Triplo Chocolate",
+      "size": 28584,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.925Z"
+    },
+    {
+      "id": "original-media-2",
+      "filename": "caramelo-salgado-03.webp",
+      "originalName": "caramelo-salgado-03.webp",
+      "path": "/uploads/products/caramelo-salgado-03.webp",
+      "alt": "Caramelo Salgado",
+      "size": 8286,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.926Z"
+    },
+    {
+      "id": "original-media-3",
+      "filename": "choco-chip-01.webp",
+      "originalName": "choco-chip-01.webp",
+      "path": "/uploads/products/choco-chip-01.webp",
+      "alt": "Choco Chip - Clássico",
+      "size": 12668,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.926Z"
+    },
+    {
+      "id": "original-media-4",
+      "filename": "coco-dulce-04.webp",
+      "originalName": "coco-dulce-04.webp",
+      "path": "/uploads/products/coco-dulce-04.webp",
+      "alt": "Coco Dulce",
+      "size": 9094,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.926Z"
+    },
+    {
+      "id": "original-media-5",
+      "filename": "limao-siciliano-05.webp",
+      "originalName": "limao-siciliano-05.webp",
+      "path": "/uploads/products/limao-siciliano-05.webp",
+      "alt": "Limão Siciliano",
+      "size": 13168,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.927Z"
+    },
+    {
+      "id": "original-media-6",
+      "filename": "ninho-06.webp",
+      "originalName": "ninho-06.webp",
+      "path": "/uploads/products/ninho-06.webp",
+      "alt": "Ninhotella",
+      "size": 15844,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.927Z"
+    },
+    {
+      "id": "original-media-7",
+      "filename": "nutella-07.webp",
+      "originalName": "nutella-07.webp",
+      "path": "/uploads/products/nutella-07.webp",
+      "alt": "Nutella",
+      "size": 23348,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.927Z"
+    },
+    {
+      "id": "original-media-8",
+      "filename": "pote-latte-10.webp",
+      "originalName": "pote-latte-10.webp",
+      "path": "/uploads/products/pote-latte-10.webp",
+      "alt": "Pote Latte",
+      "size": 21804,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.927Z"
+    },
+    {
+      "id": "original-media-9",
+      "filename": "pote-sicilia-09.webp",
+      "originalName": "pote-sicilia-09.webp",
+      "path": "/uploads/products/pote-sicilia-09.webp",
+      "alt": "Pote Sicília",
+      "size": 11968,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.927Z"
+    },
+    {
+      "id": "original-media-10",
+      "filename": "red-velvet-08.webp",
+      "originalName": "red-velvet-08.webp",
+      "path": "/uploads/products/red-velvet-08.webp",
+      "alt": "Red Velvet",
+      "size": 7832,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.927Z"
+    },
+    {
+      "id": "original-media-11",
+      "filename": "cookie-11.webp",
+      "originalName": "cookie-11.webp",
+      "path": "/uploads/carousel/cookie-11.webp",
+      "alt": "Cookie artesanal Bonki",
+      "size": 31312,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.928Z"
+    },
+    {
+      "id": "original-media-12",
+      "filename": "cookie-12.webp",
+      "originalName": "cookie-12.webp",
+      "path": "/uploads/carousel/cookie-12.webp",
+      "alt": "Cookie artesanal Bonki",
+      "size": 31212,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.928Z"
+    },
+    {
+      "id": "original-media-13",
+      "filename": "cookie-13.webp",
+      "originalName": "cookie-13.webp",
+      "path": "/uploads/carousel/cookie-13.webp",
+      "alt": "Cookie artesanal Bonki",
+      "size": 26920,
+      "mime": "image/webp",
+      "createdAt": "2026-10-08T00:59:37.928Z"
+    },
+    {
+      "id": "44408597-5bd7-4a17-987a-44b9b0a7683e",
+      "filename": "44408597-5bd7-4a17-987a-44b9b0a7683e.webp",
+      "originalName": "imagem_teste_cokkie_azul.jfif",
+      "path": "/uploads/products/44408597-5bd7-4a17-987a-44b9b0a7683e.webp",
+      "mime": "image/webp",
+      "size": 66568,
+      "width": 452,
+      "height": 678,
+      "alt": "Cookie Teste Azul",
+      "createdAt": "2026-10-08T01:49:27.938Z"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Entrar | Bonki Administração</title>
+    <link rel="icon" href="/assets/images/favicon.svg" />
+    <link rel="stylesheet" href="/admin/login-assets/login.css" />
+    <script src="/admin/login-assets/login.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <p class="brand">BoNKI <small>CONFEITARIA</small></p>
+      <h1>Bem-vindo ao painel</h1>
+      <p>Entre para cuidar dos produtos e conteúdos da Bonki.</p>
+      <form id="login">
+        <label for="username">Usuário</label
+        ><input
+          id="username"
+          name="username"
+          autocomplete="username"
+          required
+          maxlength="100"
+        /><label for="password">Senha</label
+        ><input
+          id="password"
+          name="password"
+          type="password"
+          autocomplete="current-password"
+          required
+          maxlength="128"
+        /><button>Entrar</button>
+        <p id="error" role="alert"></p>
+      </form>
+      <a href="/">Voltar ao site</a>
+    </main>
+  </body>
+</html>

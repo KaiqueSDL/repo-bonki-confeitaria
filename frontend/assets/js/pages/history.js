@@ -1,0 +1,5 @@
+function pHist() {
+  const history = HISTORY;
+  return `<section class="hhero"><div><div class="ph">${history.foundersImage ? `<img src="${escapeHTML(history.foundersImage.path)}" alt="${escapeHTML(history.foundersImage.alt)}">` : 'Foto das fundadoras em breve'}</div><div class="eyebrow inline-style-05">${escapeHTML(history.eyebrow)}</div><h1 class="disp inline-style-06">${escapeHTML(history.title)}</h1></div></section>
+  <section class="wrap sec"><div class="story fade"><h2>${escapeHTML(history.subtitle)}</h2>${history.paragraphs.map((text) => `<p>${escapeHTML(text)}</p>`).join('')}</div><div class="tl">${history.timeline.map((event) => `<div class="ev fade"><b>${escapeHTML(event.year)}</b><h3>${escapeHTML(event.title)}</h3><p>${escapeHTML(event.description)}</p></div>`).join('')}</div><div class="cta fade inline-style-07"><h2>${escapeHTML(history.ctaTitle)}</h2><p>${escapeHTML(history.ctaText)}</p><a class="btn b1" href="#/cardapio">${escapeHTML(history.ctaButton)}</a></div></section>`;
+}

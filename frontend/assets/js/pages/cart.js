@@ -1,0 +1,10 @@
+function cartRow(item) {
+  const product = byId(item.id);
+  return `<div class="crow">${product ? `<img src="${escapeHTML(product.image)}" alt="${escapeHTML(product.imageAlt)}">` : '<span>🍪</span>'}<div><h3>${escapeHTML(product?.name || item.name || 'Produto removido')}</h3>${product?.available ? `<small>${escapeHTML(product.flavor)} · ${escapeHTML(product.size)}</small><div>${money(product.price)}</div>${qtySel(item.qty, product.id)}` : '<p class="unavailable">Indisponível ou removido do catálogo</p>'}<br><button class="rm" data-del="${escapeHTML(item.id)}">${ic('trash')} Remover</button></div><div class="sub">${product?.available ? 'Subtotal: ' + money((Math.round(product.price * 100) * item.qty) / 100) : ''}</div></div>`;
+}
+function pCart() {
+  if (!cart.length)
+    return `<section class="wrap"><div class="empty"><div class="big inline-style-10">🛒</div><h2 class="inline-style-11">Seu carrinho está vazio.</h2><p class="inline-style-12">Que tal conhecer nossos produtos?</p><a class="btn b1" href="#/cardapio">Ver Cardápio</a></div></section>`;
+  const invalid = cart.some((item) => !byId(item.id)?.available);
+  return `<section class="wrap sec"><div class="eyebrow">Seu pedido</div><h2>Carrinho</h2>${invalid ? '<p class="note" role="alert">Há produtos removidos ou indisponíveis. Remova esses itens para finalizar.</p>' : ''}<div class="cl"><div>${cart.map(cartRow).join('')}<a class="btn bo sm" href="#/cardapio">← Continuar escolhendo</a></div><div class="sum"><h3 class="inline-style-13">Resumo</h3><div><span>Subtotal disponível</span><span>${money(total())}</span></div><div><span>Total de itens</span><span>${count()}</span></div><div class="tot"><span>Total</span><span>${money(total())}</span></div><p class="inline-style-14">Taxa de entrega não inclusa. Combinamos tudo no WhatsApp.</p><button class="btn bw full-width" id="checkout" ${invalid ? 'disabled' : ''}>${WA} Finalizar pedido pelo WhatsApp</button><div class="note">${CONFIG.avisos.map(escapeHTML).join('<br>')}</div></div></div></section>`;
+}

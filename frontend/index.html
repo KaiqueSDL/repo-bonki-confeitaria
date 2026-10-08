@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>Bonki Confeitaria | Cookies Artesanais</title>
+    <meta
+      name="description"
+      content="Conheça os cookies recheados da Bonki Confeitaria. Escolha seus sabores e faça seu pedido direto pelo WhatsApp."
+    />
+    <meta property="og:title" content="Bonki Confeitaria | Cookies Artesanais" />
+    <meta
+      property="og:description"
+      content="Cookies recheados e cookies no pote. Peça pelo WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Noto+Serif:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/pages/home.css" />
+    <link rel="stylesheet" href="assets/css/pages/history.css" />
+    <link rel="stylesheet" href="assets/css/pages/menu.css" />
+    <link rel="stylesheet" href="assets/css/pages/cart.css" />
+    <!-- Scripts clássicos com defer: execução na ordem abaixo, após o HTML. -->
+    <script src="assets/js/services/content.js" defer></script>
+
+    <script src="assets/js/utils.js" defer></script>
+    <script src="assets/js/cart.js" defer></script>
+    <script src="assets/js/whatsapp.js" defer></script>
+    <script src="assets/js/components.js" defer></script>
+    <script src="assets/js/pages/home.js" defer></script>
+    <script src="assets/js/pages/history.js" defer></script>
+    <script src="assets/js/pages/menu.js" defer></script>
+    <script src="assets/js/pages/cart.js" defer></script>
+    <script src="assets/js/layout.js" defer></script>
+    <script src="assets/js/animations.js" defer></script>
+    <script src="assets/js/router.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <div id="scrim"></div>
+    <header class="top">
+      <a href="#/" class="logo" aria-label="Início" data-brand>BoNKI</a
+      ><button id="menuBtn" aria-label="Abrir menu" aria-expanded="false">
+        <svg class="i inline-style-01" viewBox="0 0 24 24">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </header>
+    <aside id="side" aria-label="Menu principal">
+      <a href="#/" class="logo"
+        ><span data-brand>BoNKI</span><small data-subtitle>CONFEITARIA</small></a
+      >
+      <nav id="nav"></nav>
+      <div class="sidefoot">Feito com carinho,<br />para você aproveitar cada pedaço.</div>
+    </aside>
+    <main id="app" tabindex="-1"></main>
+    <a id="fab" href="#/carrinho" aria-label="Abrir carrinho"></a>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <div id="modal" role="dialog" aria-modal="true" aria-label="Detalhes do produto"></div>
+  </body>
+</html>

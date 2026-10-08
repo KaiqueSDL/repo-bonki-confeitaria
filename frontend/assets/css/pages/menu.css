@@ -1,0 +1,66 @@
+.bar {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px 0 6px;
+}
+.search {
+  flex: 1;
+  min-width: 220px;
+  position: relative;
+}
+.search input {
+  width: 100%;
+  padding: 13px 18px 13px 46px;
+  border-radius: 99px;
+  border: 2px solid var(--sand);
+  background: #fff;
+  font: inherit;
+}
+.search input:focus {
+  outline: 0;
+  border-color: var(--g);
+}
+.search svg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--mute);
+}
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.chip {
+  padding: 8px 18px;
+  border-radius: 99px;
+  background: #fff;
+  border: 2px solid var(--sand);
+  font-size: 0.88rem;
+  transition: 0.2s;
+}
+.chip:hover {
+  border-color: var(--g);
+}
+.chip.on {
+  background: var(--g);
+  color: #fff;
+  border-color: var(--g);
+}
+.crumb {
+  font-size: 0.85rem;
+  color: var(--mute);
+  margin-top: 18px;
+}
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--mute);
+}
+.empty .big {
+  font-size: 3.4rem;
+}
